@@ -51,7 +51,7 @@ for item in data:
             graph.create(node1)
         else:
             # If the name exists in neo4j nodes, select it as Node1.
-            node1 = nodes1[0]   # 如果图数据库中有同名节点，则指定为该节点
+            node1 = nodes1[0]
         if no2 == 0:
             # Same operation as node1
             graph.create(node2)
